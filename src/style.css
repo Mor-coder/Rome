@@ -20,22 +20,26 @@ body {
   position: absolute;
 }
 
-.wrapper .btn-primary {
+.wrapper h1 {
   color: #d89d27;
-  background-color: transparent;
-  font-size: 40px;
-  position: relative;
-  margin-top: 25%;
-  left: 10%;
+  font-size: 100px;
+  margin-top: 23%;
+  margin-bottom: 0;
   font-family: "Times New Roman", Times, serif;
-  border: 2px dotted #816323;
-  padding: 15px;
+  padding-left: 20%;
+}
+
+.wrapper h2 {
+  color: #d89d27;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 23%;
 }
 
 .box {
   position: relative;
   width: 15%;
-  margin-top: -12%;
+  margin-top: -17%;
   left: 43%;
   border: 1px dotted #816323;
 }
@@ -63,12 +67,13 @@ body {
 
 .box:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .text {
   font-family: "Times New Roman", Times, serif;
   color: #816323;
-  font-size: 15px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -86,6 +91,7 @@ body {
 
 .box_colosseum:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .colosseum {
@@ -106,6 +112,7 @@ body {
 
 .box_carbonara:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .carbonara {
