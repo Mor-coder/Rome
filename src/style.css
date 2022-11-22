@@ -62,7 +62,15 @@ nav li {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 15px;
-  margin: 5px 10px;
+  margin: 5px 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  cursor: pointer;
 }
 
 .wrapper h1 {
@@ -84,7 +92,7 @@ nav li {
 .box {
   position: relative;
   width: 15%;
-  margin-top: -15%;
+  margin-top: -17%;
   left: 43%;
   border: 1px dotted #816323;
 }
@@ -171,10 +179,14 @@ nav li {
 .socials ul {
   display: block;
   justify-content: start;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 .socials li {
   list-style: none;
   color: #d89d27;
   font-size: 20px;
+}
+
+.socials li a:hover {
+  cursor: pointer;
 }
