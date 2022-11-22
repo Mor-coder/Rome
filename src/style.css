@@ -5,7 +5,7 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
-  margin: 10px;
+  margin: 0 auto;
   background-color: black;
   border: 2px dotted #816323;
 }
@@ -16,13 +16,11 @@ body {
   width: 100%;
   height: 100vh;
   opacity: 35%;
-  padding: 10px;
   position: fixed;
 }
 
 nav {
   box-sizing: border-box;
-  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -31,14 +29,13 @@ nav {
   left: 0px;
   line-height: 24px;
   margin-bottom: 0px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 0px;
   margin-top: 15px;
   padding-bottom: 0px;
   padding-left: 30px;
-  padding-right: 15px;
+  padding-right: 30px;
   padding-top: 0px;
-  position: fixed;
   right: 0px;
   text-decoration-color: #d89d27;
   text-size-adjust: 100%;
@@ -64,8 +61,8 @@ nav li {
   color: #d89d27;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 25px;
-  margin: 5px 15px;
+  padding: 5px 15px;
+  margin: 5px 10px;
 }
 
 .wrapper h1 {
@@ -169,4 +166,15 @@ nav li {
   height: auto;
   padding: 5px;
   opacity: 82%;
+}
+
+.socials ul {
+  display: block;
+  justify-content: start;
+  margin-top: 10%;
+}
+.socials li {
+  list-style: none;
+  color: #d89d27;
+  font-size: 20px;
 }
